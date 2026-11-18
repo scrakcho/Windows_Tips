@@ -10,7 +10,7 @@
 2. Usa el siguiente comando:
 
    ```powershell
-   & ([scriptblock]::Create((irm "https://debloat.raphi.re/")))
+   irm https://christitus.com/win | iex
    ```
 
 3. Sigue las opciones que muestre la herramienta. Según la versión, puedes elegir una configuración **predeterminada** o personalizar qué aplicaciones y ajustes aplicar. Lee cada opción antes de confirmarla; quitar componentes o cambiar funciones puede afectar tu uso de Windows.
